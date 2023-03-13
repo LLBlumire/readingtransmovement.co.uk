@@ -1,0 +1,13 @@
+{
+  "name": "reading-trans-movement-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucille L. Blumire <lucy@llblumire.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy"
+  }
+}
