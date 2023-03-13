@@ -2,6 +2,8 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     just
-    yarn
+  ];
+  inputsFrom = [
+    (import ./package.nix { inherit pkgs; })
   ];
 }
