@@ -12,15 +12,23 @@ jobs:
   deliver:
     runs-on: "ubuntu-latest"
     steps:
-    - name: "Checkout"
+
+    - name: "Checkout Source"
       uses: "actions/checkout@v3"
+
     - name: "Install Nix"
       uses: "cachix/install-nix-action@v20"
       with:
         github_access_token: "${{ secrets.GITHUB_TOKEN }}"
+
     - name: "Build"
       run: "nix build"
+
+    # Fix for https://github.com/actions/deploy-pages/issues/58
+    - name: "Fix File Permissions" 
+      run: "cp -r -L --no-preserve=mode,ownership result/ artifact"
+
     - name: "Deploy"
       uses: "JamesIves/github-pages-deploy-action@v4"
       with:
-        folder: "result"
+        folder: "artifact"
