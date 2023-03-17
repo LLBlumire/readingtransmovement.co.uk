@@ -1,0 +1,11 @@
+---
+title: Past Events
+date: 2000-01-03 #overrided for sortin
+---
+
+<h2>Past Events</h2>
+<ul>
+    {% for event in collections.events %}
+    <li><a href="{{event.url}}">{{event.data.title}} on {{event.date.toLocaleDateString("en-GB")}}</a></li>
+    {% endfor %}
+</ul>

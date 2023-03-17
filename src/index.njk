@@ -1,0 +1,19 @@
+---
+layout: default.hbs
+title: Reading Trans Movement
+---
+<header class="[ cover ][ bg-black ][]" data-except="cover-pad-wide">
+    <h1 class="[ cover__mid ][][]">
+        <span class="[][ text-pink ][]">Reading</span><br/>
+        <span class="[][ text-white ][]">Trans</span><br/>
+        <span class="[][ text-blue ][]">Movement</span>
+    </h1>
+    <button class="[][ icon text-center text-white text-lg ][]" onclick="quick_scroll()">expand_more</button>
+</header>
+<main class="[ stack ][ padding-md-lg ][]" data-quick-scroll-target="true">
+    {% for post in collections.posts %}
+    <article class="[ stack ][][ article-block ]">
+        {{ post.content | safe }}
+    </article>
+    {% endfor %}
+</main>
