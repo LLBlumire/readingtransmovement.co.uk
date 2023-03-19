@@ -18,7 +18,7 @@ family as a larger than life character who would leave a lasting impression on
 all that met her. Beautiful, witty, hilarious, strong, and fearless. She was
 bullied and attacked for years because of her gender identity. Her school, and
 others in a position of power, did nothing to resolve the bullying. She was
-murdered in a targetted attack by two teens of a similar age on the 11th of
+murdered in a targeted attack by two teens of a similar age on the 11th of
 February, 2023.
 
 </section>
@@ -29,7 +29,7 @@ February, 2023.
 ### UK Media and Government Response
 
 The UK medias response to her death was abhorrent. Many publications
-misgendered her and a few published her [dead name](/misc/deadname.md). The
+misgendered her and a few published her [dead name](/misc/deadname). The
 times removed the word 'girl' from their article about her death, replacing it
 with 'teen' after they learned she was trans. Many publications performed
 similar acts of disrespect.
@@ -42,7 +42,7 @@ recognition certificate to be issued by stating that the existing system was
 working as intended, and that there were no plans to change it.
 
 To clarify for those unaware, a gender recognition certificate allows a trans
-person to update their gender marker on their birth, marriange, and death
+person to update their gender marker on their birth, marriage, and death
 certificates. That is its only function, despite [trans genocide
 advocates](/misc/tga) frequently spreading misinformation about the impacts of
 the certficiate. Scotland attempted to lower the age it could be acquired to

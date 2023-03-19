@@ -12,7 +12,7 @@ support the local trans and gender non-conforming community, and to oppose
 any who would advocate for the torture and genocide of our community.
 
 The group initially came together over the span of two days to oppose a talk
-held at the [Univeristy of Reading][uni] which argued in favour of the torture of
+held at the [University of Reading][uni] which argued in favour of the torture of
 trans people. You can learn more about the [circumstances of the groups
 founding here][op1].
 
