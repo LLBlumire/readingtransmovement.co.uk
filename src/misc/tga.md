@@ -26,8 +26,10 @@ of their views. They have previously been known as:
  - [Nazis][ifs]
  - Trans Exclusive Radical Feminists (TERFs)
  - Gender Critical Persons (GCs)
+ - [Nazis][kjk]
 
 
 </section>
 
 [ifs]: https://en.wikipedia.org/wiki/Institut_f%C3%BCr_Sexualwissenschaft
+[kjk]: https://www.thepinknews.com/2023/03/18/anti-trans-posie-parker-supporters-nazi-salutes-melbourne/
