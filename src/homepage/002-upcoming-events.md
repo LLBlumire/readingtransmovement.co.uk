@@ -16,7 +16,7 @@ will present their speeches to the crowd. The march should be done by 3:30pm,
 though we cannot predict how many will want to speak and how long they will
 speak for.
 
-![leaflet.jpg]
+![Leaflet advertising the TDOV march][poster]
 
 [tdov]: https://en.wikipedia.org/wiki/International_Transgender_Day_of_Visibility
 [poster]: /images/leaflet.jpg
