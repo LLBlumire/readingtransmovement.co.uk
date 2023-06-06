@@ -1,3 +1,5 @@
 import TransGenocideAdvocate from "~/components/pages/md/TransGenocideAdvocate.mdx";
 
-export default TransGenocideAdvocate;
+export default function page() {
+  return <TransGenocideAdvocate />;
+}
