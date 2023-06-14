@@ -1,6 +1,15 @@
 import Link from "next/link";
+import { UnderConstruction } from "../UnderConstruction";
 
 const glossary = [
+  {
+    slug: "trans-genocide-advocate",
+    name: "Gender Critical (GC)",
+  },
+  {
+    slug: "trans-genocide-advocate",
+    name: "TERF",
+  },
   {
     slug: "trans-genocide-advocate",
     name: "Trans Genocide Advocate",
@@ -22,6 +31,9 @@ export function Learn() {
             </li>
           ))}
         </ul>
+      </section>
+      <section className="max-w-screen-lg mx-auto flex flex-col items-center">
+        <UnderConstruction msg="More Resources Coming Soon" />
       </section>
     </main>
   );

@@ -4,12 +4,10 @@ import Link from "next/link";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <main>
-      <article className="my-20 md:my-32 prose prose-zinc lg:prose-lg xl:prose-xl 2xl:prose-2xl mx-auto px-6">
-        {children}
-        <BackToLearn />
-      </article>
-    </main>
+    <>
+      {children}
+      <BackToLearn />
+    </>
   );
 }
 

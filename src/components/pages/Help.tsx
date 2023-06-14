@@ -1,3 +1,5 @@
+import { UnderConstruction } from "../UnderConstruction";
+
 export function Help() {
-  return <></>;
+  return <UnderConstruction />;
 }

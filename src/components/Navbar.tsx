@@ -11,7 +11,7 @@ export function Navbar() {
             <span className="text-sky-200">Movement</span>&#8203;
           </h1>
         </Link>
-        <ul className="flex gap-4 sm:gap-6 flex-wrap">
+        <ul className="flex gap-4 sm:gap-6 flex-wrap justify-center">
           <NavContent />
         </ul>
       </nav>
