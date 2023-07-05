@@ -2,7 +2,7 @@ import "~/globals.css";
 import { Inter, Atkinson_Hyperlegible } from "next/font/google";
 import Link from "next/link";
 import { NavUl } from "~/components/NavUl";
-import { Facebook, Twitter } from "lucide-react";
+import { Facebook, Github, Twitter, Youtube } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { NavLink } from "~/components/NavLink";
 import { Metadata } from "next";
@@ -66,6 +66,18 @@ export default function RootLayout({
                 <Link href="https://www.facebook.com/profile.php?id=100081774875259">
                   <Facebook width={34} className="not-sr-only" />
                   <div className="sr-only">Facebook</div>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.youtube.com/@readingtransmvt">
+                  <Youtube width={34} className="not-sr-only" />
+                  <div className="sr-only">Youtube</div>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://github.com/LLBlumire/readingtransmovement.co.uk">
+                  <Github width={34} className="not-sr-only" />
+                  <div className="sr-only">Website Source Code</div>
                 </Link>
               </li>
             </ul>
