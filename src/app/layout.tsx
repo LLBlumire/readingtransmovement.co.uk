@@ -51,31 +51,46 @@ export default function RootLayout({
           <div className="bg-rose-300 w-full p-2 lg:p-4">
             <ul className="flex gap-2 justify-center">
               <li>
-                <Link href="https://twitter.com/readingtransmvt">
+                <Link
+                  href="https://twitter.com/readingtransmvt"
+                  target="_blank"
+                >
                   <Twitter width={34} className="not-sr-only" />
                   <div className="sr-only">Twitter</div>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/readingtransmvt/">
+                <Link
+                  href="https://www.instagram.com/readingtransmvt/"
+                  target="_blank"
+                >
                   <Instagram width={34} className="not-sr-only" />
                   <div className="sr-only">Intagram</div>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.facebook.com/profile.php?id=100081774875259">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=100081774875259"
+                  target="_blank"
+                >
                   <Facebook width={34} className="not-sr-only" />
                   <div className="sr-only">Facebook</div>
                 </Link>
               </li>
               <li>
-                <Link href="https://www.youtube.com/@readingtransmvt">
+                <Link
+                  href="https://www.youtube.com/@readingtransmvt"
+                  target="_blank"
+                >
                   <Youtube width={34} className="not-sr-only" />
                   <div className="sr-only">Youtube</div>
                 </Link>
               </li>
               <li>
-                <Link href="https://github.com/LLBlumire/readingtransmovement.co.uk">
+                <Link
+                  href="https://github.com/LLBlumire/readingtransmovement.co.uk"
+                  target="_blank"
+                >
                   <Github width={34} className="not-sr-only" />
                   <div className="sr-only">Website Source Code</div>
                 </Link>
