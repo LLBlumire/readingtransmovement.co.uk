@@ -1,6 +1,6 @@
 # Reading Trans Movement
 
-[live website][https://readingtransmovement.co.uk]
+[live website](https://readingtransmovement.co.uk)
 
 ## Contributing
 
