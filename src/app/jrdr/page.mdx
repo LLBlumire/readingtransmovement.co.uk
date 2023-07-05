@@ -1,0 +1,77 @@
+import { Facebook, Twitter, Instagram } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+
+## Reading Trans Movement Supports Striking Doctors!
+
+Trans people are in solidarity with workers because none of us are free until all of us are free.
+
+Let's build trust between our communities.
+
+Thanks for your interest in our issues!
+
+The following list of links provides detailed information on how you can support trans patients in your practice.
+
+Don't forget to follow us on social media to get the latest news and updates!
+
+<div className="flex flex-wrap gap-2 items-center">
+  <span>Follow us:</span>
+  <Link href="https://www.facebook.com/profile.php?id=100081774875259">
+    <Facebook width={32} />
+  </Link>
+  <Link href="https://twitter.com/ReadingTransMvt">
+    <Twitter width={32} />
+  </Link>
+  <Link href="https://www.instagram.com/readingtransmvt/">
+    <Instagram width={32} />
+  </Link>
+</div>
+
+<div className="not-prose flex flex-col gap-4 mb-8 mt-8">
+
+<Link
+  className="flex gap-4 p-4 bg-white shadow items-center hover:scale-105 transition-transform"
+  href="https://www.gmc-uk.org/ethical-guidance/ethical-hub/trans-healthcare"
+>
+  <div className="relative w-16 h-16 flex-shrink-0">
+    <Image
+      fill={true}
+      className="object-fit-cover "
+      src="/images/general_medical_council.png"
+      alt=""
+    />
+  </div>
+  <span>Trans Healthcare Guidance &mdash; General Medical Council</span>
+</Link>
+
+<Link
+  className="flex gap-4 p-4 bg-white shadow items-center hover:scale-105 transition-transform"
+  href="https://www.transactual.org.uk/healthcare-professionals"
+>
+  <div className="relative w-16 h-16 flex-shrink-0">
+    <Image
+      fill={true}
+      className="object-fit-cover "
+      src="/images/transactual_logo-circle_youtube.png"
+      alt=""
+    />
+  </div>
+  <span>Trans Healthcare for Professionals &mdash; TransActual</span>
+</Link>
+
+<Link
+  className="flex gap-4 p-4 bg-white shadow items-center hover:scale-105 transition-transform"
+  href="https://www.stonewall.org.uk/lgbt-britain-trans-report"
+>
+  <div className="relative w-16 h-16 flex-shrink-0">
+    <Image
+      fill={true}
+      className="object-fit-cover "
+      src="/images/stonewall_logo_arrow.png"
+      alt=""
+    />
+  </div>
+  <span>LGBT in Britain &mdash; Trans Report (Stonewall, 2017)</span>
+</Link>
+
+</div>
