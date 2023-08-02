@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     "Reading Trans Movement is an activist group in Reading. Founded to support the local trans and gender non-conforming community, and to oppose any who would advocate for the torture and genocide of our community.",
   manifest: "/manifest.webmanifest",
+  metadataBase: new URL("https://readingtransmovement.co.uk"),
 };
 
 export default function RootLayout({
